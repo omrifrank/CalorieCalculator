@@ -1,18 +1,15 @@
-package com.company;
-
-import javax.swing.*;
 import java.util.Objects;
 import java.util.Scanner;
 
-// BMI Calculator in Java
+// Calorie Calculator in Java
 // Uses metric units
-public class BMICalculatorInMetric {
+public class CalorieCalculatorInMetric {
 
     public static void main(String[] args) throws Exception {
         calculateCalories();
     }
 
-    private static void calculateCalories() throws Exception {
+    private static void calculateCalories() {
         float age;
         float height;
         float weight;
